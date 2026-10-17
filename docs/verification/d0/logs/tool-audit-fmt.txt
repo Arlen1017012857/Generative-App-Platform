@@ -1,0 +1,12 @@
+Diff in /Users/arlen/Arlen/Rust-fullstack Generative App Platform/apps/desktop/src/workspace/tool_tests.rs:238:
+             0,
+             "Expansion must belong to its session even when message IDs overlap"
+         );
+-        assert_eq!(
+-            window.find_by_label("Message Pi").value(),
+-            Some("draft b")
+-        );
++        assert_eq!(window.find_by_label("Message Pi").value(), Some("draft b"));
+     })
+     .unwrap();
+     for ix in 0..12 {

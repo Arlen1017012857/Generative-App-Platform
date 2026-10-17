@@ -1,0 +1,34 @@
+   Compiling generative-app-desktop v0.1.0 (/Users/arlen/Arlen/Rust-fullstack Generative App Platform/apps/desktop)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 7.04s
+     Running unittests src/lib.rs (target/debug/deps/generative_app_desktop-6cc89e14abb028be)
+
+running 14 tests
+test settings::tests::invalid_path_does_not_replace_saved_preferences ... ok
+test files::tests::source_is_readonly_and_symlinks_cannot_escape_project ... ok
+test shell::tests::layout_restores_widths_visibility_and_terminal_project_identity ... ok
+test storage::tests::writes_are_ordered_and_persisted ... ok
+test terminal::model::tests::real_pty_output_resize_and_exit ... ok
+test terminal::model::tests::closing_live_terminal_terminates_and_reaps_shell ... ok
+test workspace::rpc::tests::correlates_out_of_order_responses_and_never_retries_unknown_requests ... ok
+test workspace::rpc::tests::frames_split_utf8_without_splitting_unicode_separators ... ok
+test workspace::tests::restored_sessions_do_not_replay_pending_prompts ... ok
+test files::tests::rapid_file_and_project_changes_discard_obsolete_reads ... ok
+test ui_tests::opens_projects_and_keeps_only_two_workspace_types ... ok
+test ui_tests::settings_database_failure_preserves_input_and_last_valid_configuration ... ok
+test ui_tests::settings_reject_invalid_path_through_production_controls ... ok
+test ui_tests::production_sessions_keep_drafts_and_workspace_tabs_switch ... ok
+
+test result: ok. 14 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.29s
+
+     Running unittests src/main.rs (target/debug/deps/generative_app_desktop-13cd2dcc65aa70ee)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests generative_app_desktop
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

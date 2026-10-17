@@ -1,0 +1,3 @@
+   Compiling generative-app-desktop v0.1.0 (/Users/arlen/Arlen/Rust-fullstack Generative App Platform/apps/desktop)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 5.81s
+/Users/arlen/Arlen/Rust-fullstack Generative App Platform/dist/Generative App Platform.app

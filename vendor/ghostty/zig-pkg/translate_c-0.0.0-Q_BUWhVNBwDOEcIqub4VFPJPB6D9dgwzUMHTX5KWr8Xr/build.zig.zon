@@ -1,0 +1,27 @@
+.{
+    .name = .translate_c,
+
+    .version = "0.0.0",
+
+    .fingerprint = 0x1c84f6455a54f043, // Changing this has security and trust implications.
+
+    .minimum_zig_version = "0.16.0",
+
+    .dependencies = .{
+        .aro = .{
+            .url = "https://github.com/vancluever/arocc/archive/f97cdfc3779aec4b242299e2fc9a1c828c3547c6.tar.gz",
+            .hash = "aro-0.0.0-JSD1Qk6lNgDdcDV4Vh7Sfy-34m2TluIVOdPzMmj_0BjX",
+        },
+    },
+
+    .paths = .{
+        "build",
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "lib",
+        "test/cases.zig",
+        "LICENSE",
+        "README.md",
+    },
+}

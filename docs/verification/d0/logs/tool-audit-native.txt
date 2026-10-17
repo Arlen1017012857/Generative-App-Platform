@@ -1,0 +1,10 @@
+2026-10-17 native macOS GPUI accessibility verification using isolated RPC fixture.
+A: 3 real Markdown reads and shell output with Chinese text, exit code 17.
+B: 3 real Markdown reads and 30-second shell command stopped and reaped.
+Switching between active sessions left the other session running.
+Tool names and Error labels persisted through final toolResult and restart.
+Session A Hide thinking -> Session B Thinking: independent expansion.
+Same relative one.md links displayed A / one and B / one respectively.
+a.jsonl.replay.json: 7 messages, 4 tools, one user prompt after restart.
+b.jsonl.replay.json: 6 messages, 4 tools, one user prompt after restart.
+Native app log contained no panic; isolated app exited before cleanup.

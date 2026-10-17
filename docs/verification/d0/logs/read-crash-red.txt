@@ -1,0 +1,21 @@
+   Compiling generative-app-desktop v0.1.0 (/Users/arlen/Arlen/Rust-fullstack Generative App Platform/apps/desktop)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 8.37s
+     Running unittests src/lib.rs (target/debug/deps/generative_app_desktop-6cc89e14abb028be)
+
+running 1 test
+
+thread 'workspace::chat_tests::read_tool_events_keep_one_accessible_message_row' (17081238) panicked at apps/desktop/src/workspace/chat_tests.rs:52:17:
+assertion `left == right` failed: Duplicate chat row identity after "message_start" produces duplicate accessibility nodes
+  left: 4
+ right: 3
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test workspace::chat_tests::read_tool_events_keep_one_accessible_message_row ... FAILED
+
+failures:
+
+failures:
+    workspace::chat_tests::read_tool_events_keep_one_accessible_message_row
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 25 filtered out; finished in 0.04s
+
+error: test failed, to rerun pass `-p generative-app-desktop --lib`

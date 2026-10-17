@@ -1,0 +1,28 @@
+   Compiling generative-app-desktop v0.1.0 (/Users/arlen/Arlen/Rust-fullstack Generative App Platform/apps/desktop)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 8.39s
+     Running unittests src/lib.rs (target/debug/deps/generative_app_desktop-6cc89e14abb028be)
+
+running 2 tests
+
+thread 'workspace::tool_tests::switching_sessions_keeps_running_tools_drafts_and_expansion_separate' (17094423) panicked at apps/desktop/src/workspace/tool_tests.rs:123:9:
+assertion `left == right` failed: Expansion must belong to its session even when message IDs overlap
+  left: 1
+ right: 0
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test workspace::tool_tests::switching_sessions_keeps_running_tools_drafts_and_expansion_separate ... FAILED
+
+thread 'workspace::tool_tests::tools_keep_errors_and_identity_through_final_results' (17094424) panicked at apps/desktop/src/workspace/tool_tests.rs:104:9:
+assertion `left == right` failed: A failed command must remain visibly failed after its final toolResult
+  left: 0
+ right: 1
+test workspace::tool_tests::tools_keep_errors_and_identity_through_final_results ... FAILED
+
+failures:
+
+failures:
+    workspace::tool_tests::switching_sessions_keeps_running_tools_drafts_and_expansion_separate
+    workspace::tool_tests::tools_keep_errors_and_identity_through_final_results
+
+test result: FAILED. 0 passed; 2 failed; 0 ignored; 0 measured; 27 filtered out; finished in 0.60s
+
+error: test failed, to rerun pass `-p generative-app-desktop --lib`

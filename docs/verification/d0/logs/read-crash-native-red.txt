@@ -1,0 +1,4 @@
+thread 'main' (17084857) panicked at /Users/arlen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gpui-pre-0.3.9/src/window/a11y.rs:415:13:
+Duplicate a11y node id: #3463994483283624900. In a release build, this node would be silently discarded from the a11y tree.
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 3, aborting

@@ -1,0 +1,9 @@
+2026-10-17 Apple Silicon macOS / GPUI native accessibility enabled
+Old packaged binary: synthetic read RPC events -> Duplicate a11y node id -> SIGABRT.
+Fixed packaged binary: same RPC sequence completed; one read tool row and file link persisted.
+Expanded result displayed Chinese content and the final streamed assistant message.
+Quit and relaunched the isolated application; history restored with one tool result.
+Clicked README.md from restored tool result; Markdown preview rendered.
+Screenshot: ../assets/read-tool-crash-fixed.png
+Isolated application exited and temporary replay bundle, process fixture and data removed.
+Normal rebuilt application opened with existing data. Real Pi get_messages restored the original read result; expanded without crashing. No prompt was re-sent.

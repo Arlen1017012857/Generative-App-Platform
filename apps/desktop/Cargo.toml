@@ -1,0 +1,24 @@
+[package]
+name = "generative-app-desktop"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+gpui-kit = { git = "https://github.com/longbridge/gpui-kit", rev = "eec1208dd57d8bc8abc769fd833d181d297790f9", features = ["syntect"] }
+anyhow = "1"
+async-channel = "2"
+futures = "0.3"
+image = "0.25"
+libc = "0.2"
+notify = "8"
+portable-pty = "0.9"
+rusqlite = { version = "0.38", features = ["bundled"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+uuid = { version = "1", features = ["v4", "serde"] }
+
+[dev-dependencies]
+gpui-kit = { git = "https://github.com/longbridge/gpui-kit", rev = "eec1208dd57d8bc8abc769fd833d181d297790f9", features = ["test-support", "syntect"] }
+tempfile = "3"
